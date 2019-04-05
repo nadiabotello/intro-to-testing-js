@@ -8,9 +8,19 @@ function helloWorld() {
 // }
 
 function sayHello(input) {
-    if (input === "Alex") {
-        return "Hello, Alex!";
-    } else {
-        return "Hello, Jane!"
+    if (input) {
+        return "Hello, " + input + "!";
     }
+    else {
+        return "Hello, Jane!";
+    }
+
+    // if (input === "Alex") {
+    //     return "Hello, Alex!";
+    // }
+    // else {
+    //     return "Hello, Jane!"
+    // }
+
 }
+
